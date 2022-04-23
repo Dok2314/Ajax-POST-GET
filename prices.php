@@ -34,7 +34,7 @@
 <script type="text/javascript">
     $(function (){
         $('.jumbotron > div > a').on('click', function (){
-           var url = 'comment.php?id=' + $(this).data('id');
+           var url = 'price.php?id=' + $(this).data('id');
            $.ajax({
               url: encodeURI(url),
               method: "GET",
